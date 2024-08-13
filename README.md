@@ -1,16 +1,10 @@
-# Cosmos Wallet Registry
+# Baron Chain Wallet Registry
 
-The wallet registry for the Cosmos Blockchain Ecosystem
+The wallet registry for the Baron Chain Blockchain Ecosystem
 
 ## Wallet Data
 
 Wallet data contains information needed to allow dApps to associate wallets with chains.
-
-### Supported Chains
-
-Supported chains must be registered to the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry), and should be written exactly as defined in the Chain Registry (as folder name or `chain_name`). E.g., use `'cosmoshub'`, not `'Cosmos Hub'`.
-
-A wallet provider only needs a single file if the list of supported chains is identicial on all platforms, but may instead need to create multiple files, one for each platform with a unique set of supported chains. E.g., since Keplr's browser extensions support a different set of chains than their mobile apps support, they instead have two files: _keplrextension.json_ and _keplrmobile.json_, each defining a different set of supported chains.
 
 ### Features
 
